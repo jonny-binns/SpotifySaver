@@ -4,10 +4,8 @@ Basic program to go through your folders of music and save them to your spotify
 This program will only work for music folders structured in the format "~/Artist/Album", this program does not read the tags of the music so folder names need to be accurate
 
 # KNOWN ISSUES
-    Because this program is so simple there are some problems with it that may not be fixed
-* Explicit content, since spotify does include whether an album has explicit songs this program takes the first instance of the album that is returned and saves that. This means there is no control as to whether an explicit version of an album is saved
+* Explicit content, since spotify does include whether an album has explicit songs (instead they mark it track by track) this program takes the first instance of the album that is returned and saves that. This means there is no control as to whether an explicit version of an album is saved
 * Album names, if the name of the album folder is not the same as the name of the album on spotify it may not be saved, these albums will be included in the error.txt file
-
 
 # Instructions
 1. Make a spotify developer account and create an application (I named mine AlbumSaver)
